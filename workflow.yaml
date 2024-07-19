@@ -1,0 +1,23 @@
+main:
+  params: [dataset_id, tables, staging_table_suffix, prod_table_suffix]
+  steps:
+  - parallel:
+      steps:
+      - parallel_task:
+          call: http.post
+          args:
+            url: "https://your-region-run.googleapis.com/v1/projects/your_project_id/locations/your-region/services/my-bigquery-script:run"
+            headers:
+              Authorization: "Bearer $(ref(auth.access_token))"
+            body:
+              dataset_id: ${dataset_id}
+              staging_table_id: ${table}.staging
+              prod_table_id: ${table}.prod
+          each:
+            - table: ${tables}
+  - return: "Workflow executed"
+
+auth:
+  steps:
+  - get_token:
+      call: google.auth.access_token
