@@ -6,7 +6,7 @@ author = "Justin Napolitano"
 tags = ['python', "bigquery","programming","gcp"]
 images = ["images/feature-python.png"]
 categories = ["projects"]
-categories = ["GCP"]
+series = ["GCP"]
 +++
 
 
