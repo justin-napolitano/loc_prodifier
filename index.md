@@ -1,12 +1,12 @@
 +++
-title =  "Library of Congress Prodfier"
-date = "2024-06-19 22:36:34.376 -0500" 
+title =  "Library of Congress Prod-ifier"
+date = "2024-06-20 22:36:34.376 -0500" 
 description = "Create a modular job to run in parallel to prod-ify a db "
 author = "Justin Napolitano"
 tags = ['python', "bigquery","programming","gcp"]
 images = ["images/feature-python.png"]
 categories = ["projects"]
-series = ["GCP"]
+series   = ["GCP"]
 +++
 
 
