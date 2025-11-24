@@ -20,6 +20,12 @@ seoSecondaryKeywords:
   - python data pipeline
   - cloud run deployment
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post centers on automating BigQuery data merges using Google Cloud workflows, CI/CD pipelines,
+  containerization, and Python scripting, all of which align best with the 'automation' family
+  focusing on build, deployment, and workflow automation.
 ---
 
 # Loc Prodifier: A Technical Overview
@@ -79,3 +85,4 @@ This modular design promotes reuse and cleaner code.
 ## Summary
 
 Loc Prodifier is a practical tool for managing BigQuery data merges with a focus on preventing duplicates and enabling scalable, parallel execution. It leverages Google Cloud services and best practices such as containerization, CI/CD pipelines, and modular client utilities. The project serves as a reference implementation for data engineers seeking to automate BigQuery merges in a cloud-native environment.
+
