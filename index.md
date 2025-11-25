@@ -1,31 +1,42 @@
 ---
 slug: github-loc-prodifier
-title: 'Loc Prodifier: Automating BigQuery Data Merges with Google Cloud'
+title: 'Loc Prodifier: Automating BigQuery Data Merges'
 repo: justin-napolitano/loc_prodifier
 githubUrl: https://github.com/justin-napolitano/loc_prodifier
 generatedAt: '2025-11-23T09:14:59.421244Z'
 source: github-auto
 summary: >-
-  Technical overview of Loc Prodifier, a Python tool automating staging-to-production merges in
-  BigQuery with Google Cloud workflows and CI/CD.
+  Loc Prodifier automates the merging of staging data into BigQuery production
+  tables, preventing duplicates and supporting scalable execution.
 tags:
   - bigquery
   - google-cloud
   - data-ingestion
   - python
   - cloud-run
-seoPrimaryKeyword: bigquery data merge
+  - data pipelines
+  - google cloud
+  - cloud run
+  - docker
+  - ci/cd
+  - data engineering
+seoPrimaryKeyword: bigquery data merge automation
 seoSecondaryKeywords:
   - google cloud workflows
-  - python data pipeline
-  - cloud run deployment
+  - data ingestion
+  - cloud build
+  - data engineering tools
+  - python bigquery client
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post centers on automating BigQuery data merges using Google Cloud workflows, CI/CD pipelines,
-  containerization, and Python scripting, all of which align best with the 'automation' family
-  focusing on build, deployment, and workflow automation.
+  The post centers on automating BigQuery data merges using Google Cloud
+  workflows, CI/CD pipelines, containerization, and Python scripting, all of
+  which align best with the 'automation' family focusing on build, deployment,
+  and workflow automation.
+kind: project
+id: github-loc-prodifier
 ---
 
 # Loc Prodifier: A Technical Overview
