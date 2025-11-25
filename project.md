@@ -1,14 +1,14 @@
 ---
 slug: github-loc-prodifier
 id: github-loc-prodifier
-title: 'Loc Prodifier: Python Tool for BigQuery Data Merging'
+title: 'Loc Prodifier: Merging Data in Google BigQuery'
 repo: justin-napolitano/loc_prodifier
 githubUrl: https://github.com/justin-napolitano/loc_prodifier
 generatedAt: '2025-11-24T21:35:30.714Z'
 source: github-auto
 summary: >-
-  Loc Prodifier merges staging data into BigQuery production tables, preventing
-  duplicates and supporting local and Cloud Run execution.
+  A Python tool for merging staging data into BigQuery production tables while
+  avoiding duplicates, with support for local and Cloud Run execution.
 tags:
   - python
   - google bigquery
@@ -16,11 +16,12 @@ tags:
   - docker
   - data merging
   - cloud workflows
-seoPrimaryKeyword: bigquery data merging tool
+seoPrimaryKeyword: google bigquery data merging
 seoSecondaryKeywords:
-  - python bigquery integration
-  - cloud run data processing
-  - docker bigquery deployment
+  - python bigquery tool
+  - cloud run deployment
+  - docker for bigquery
+  - data processing workflows
   - parallel data execution
 seoOptimized: true
 topicFamily: null
